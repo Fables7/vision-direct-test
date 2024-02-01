@@ -1,0 +1,9 @@
+export { default as MainTitle } from "./MainTitle";
+export { default as Header } from "./Header";
+export { default as PrescriptionTable } from "./PrescriptionTable";
+export { default as PrescriptionFigure } from "./PrescriptionFigure";
+export { default as RelatedLinks } from "./RelatedLinks";
+export { default as Navbar } from "./Navbar";
+export { default as Trial } from "./Trial";
+export { default as Positives } from "./Positives";
+export { default as Footer } from "./Footer";
