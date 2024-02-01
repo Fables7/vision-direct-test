@@ -20,9 +20,9 @@ function App() {
         <Trial />
         <Positives />
       </div>
-      <div className=" max-container gap-4 flex flex-col py-8 xl:px-0 px-4 md:mt-4 mt-0 flex-1">
+      <article className=" max-container gap-4 flex flex-col py-8 xl:px-0 px-4 md:mt-4 mt-0 flex-1">
         <MainTitle />
-        <div>
+        <section>
           <h2>Do I need a prescription for contact lenses in the UK?</h2>
           <div className="flex flex-col gap-6">
             <p>
@@ -42,8 +42,8 @@ function App() {
               we&apos;re happy to do that too.
             </p>
           </div>
-        </div>
-        <div>
+        </section>
+        <section>
           <h2>Reading your contact lens prescription</h2>
           <div className="flex flex-col gap-4">
             <p>
@@ -60,8 +60,8 @@ function App() {
               allowfullscreen
             ></iframe>
           </div>
-        </div>
-        <div>
+        </section>
+        <section>
           <h2>How do I read my prescription?</h2>
           <div className="flex flex-col gap-8">
             <p>
@@ -139,8 +139,8 @@ function App() {
               <RelatedLinks />
             </div>
           </div>
-        </div>
-      </div>
+        </section>
+      </article>
       <Footer />
     </main>
   );
